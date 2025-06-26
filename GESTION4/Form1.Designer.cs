@@ -41,6 +41,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.btnGuardar1 = new System.Windows.Forms.Button();
             this.dgvProveedores = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProveedores)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,7 +142,7 @@
             this.btnGuardar1.Name = "btnGuardar1";
             this.btnGuardar1.Size = new System.Drawing.Size(75, 23);
             this.btnGuardar1.TabIndex = 13;
-            this.btnGuardar1.Text = "button1";
+            this.btnGuardar1.Text = "Registrar";
             this.btnGuardar1.UseVisualStyleBackColor = true;
             this.btnGuardar1.Click += new System.EventHandler(this.btnGuardar1_Click);
             // 
@@ -152,11 +154,31 @@
             this.dgvProveedores.Size = new System.Drawing.Size(412, 150);
             this.dgvProveedores.TabIndex = 14;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(304, 211);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Editar";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(411, 211);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 16;
+            this.button2.Text = "Eliminar";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(463, 431);
+            this.ClientSize = new System.Drawing.Size(814, 431);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvProveedores);
             this.Controls.Add(this.btnGuardar1);
             this.Controls.Add(this.label6);
@@ -193,6 +215,8 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnGuardar1;
         private System.Windows.Forms.DataGridView dgvProveedores;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
